@@ -42,6 +42,7 @@ TODO: Speed up limb-darkened map rotations, since
 #include "minimize.h"
 #include "numeric.h"
 
+namespace starry {
 namespace kepler {
     template <class T>
     class Body;
@@ -2009,5 +2010,6 @@ namespace maps {
     }
 
 } // namespace maps
+} // namespace starry
 
 #endif
